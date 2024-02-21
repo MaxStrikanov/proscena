@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Pro scena</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="container">
+    <header class="header">
+        <div class="header_logo">
+          <img src="logo.svg" alt="">
+        </div>
+
+        <nav>
+          <ul class="menu_items">
+            <li class="menu_item"><a href="#" class="menu_link">Сцены</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Подиумы</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Трибуны</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Одежда</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Механика</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Фермы</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Фермовые конструкции</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Свет</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Звук</a></li>
+            <li class="menu_item"><a href="#" class="menu_link">Комплексное оснащение</a></li>
+          </ul>
+
+          
+        </nav>
+        <button class="header_btn">Заказать звонок</button>
+    </header>
+
+    <main>
+      <h1 class="title">Дорогой заказчик, поделитесь впечатлениями о сотрудничестве с ПРО-Сценой</h1>
+
+      <div class="reviews_items">
+        <div class="reviews_item ">
+          <div 
+            class="reviews_img"
+            
+            >
+            <img src="/public/phone.svg" alt="">
+          </div>  
+          <div class="reviews_text" data-aos="fade-up" >
+            <p>Введите ваш номер телефона</p> 
+          </div>
+          <div class="reviews_input " >
+            <input type="text" placeholder="+7 888 777 66 55">
+          </div>
+        </div>
+        <div class="reviews_item ">
+            <div class="reviews_img">
+              <img src="/public/hend.svg" alt="">
+            </div>
+            <div class="reviews_text up">
+              <p>Оцените общее впечатление от работы с нами.</p> 
+              <span>Средняя оценка 4,3.</span>
+            </div>
+            <div class="reviews_scope">
+              <div class="reviews_heart animation_1">
+                <img src="heart_gold.svg" alt="">
+                <span class="heart_text">Ужасно</span>
+              </div>
+              
+              <div class="reviews_heart animation_2">
+                <img src="heart_gold.svg" alt="">
+                <span class="heart_text">Плохо</span>
+              </div>
+              
+              <div class="reviews_heart animation_3">
+                <img src="heart_gold.svg" alt="">
+                <span class="heart_text">Не понравилось</span>
+              </div>
+              <div class="reviews_heart animation_4">
+                <img src="heart_gold.svg" alt="">
+                <span class="heart_text">Хорошо</span>
+              </div>
+              <div class="reviews_heart animation_5">
+                <img src="heart_gold.svg" alt="">
+                <span class="heart_text">Отлично</span>
+              </div>
+            </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
