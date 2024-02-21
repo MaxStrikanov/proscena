@@ -160,5 +160,56 @@ input[type="text"] {
   padding: 24px 35px 25px 35px;
   border-radius: 0px 15px 15px 15px;
   background: rgb(246, 247, 249);
-  
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  padding: 24px 35px 25px 35px;
+  border-radius: 0px 15px 15px 15px;
+  background: rgb(246, 247, 249);
+}
+.reviews_btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 21px;
+}
+
+.reviews_btns button{
+  width: 100%;
+  padding: 22px 35px 27px 35px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.reviews_submit {
+  border-radius: 50px;
+  padding: 22px 295px 27px 295px;
+  margin: auto;
+width: 870px;
+background: rgb(246, 247, 249);
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.footer-menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  margin-top: 65px;
+}
+
+.footer_menu_link {
+  color: rgb(29, 30, 38);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 130%;
+  text-decoration:  none;
 }
